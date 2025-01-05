@@ -12,3 +12,21 @@ The script uses the `pyproj` library to transform coordinates between different 
    ```bash
    git clone https://github.com/hkourkchi/Spatial-Reference-System
    cd <repository-directory>
+   ```
+   
+2. Install the required dependencies:
+   ```bash
+   pip install pyproj
+   ```
+
+3. Update the `nad83_easting` and `nad83_northing` variables in the script with the coordinates you want to convert.
+   
+4. Run the script:
+   ```bash
+   python main.py
+   ```
+
+5. The script will output the corresponding WGS84 coordinates (longitude, latitude).
+```
+
+

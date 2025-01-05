@@ -1,0 +1,7 @@
+https://pointonenav.com/news/wgs84-vs-nad83-vs-itrf-014/
+
+https://natural-resources.canada.ca/maps-tools-and-publications/geodetic-reference-systems/18766?_gl=1%2A5yiwxj%2A_ga%2AMTY1ODU4OTk4Ny4xNzI3OTAyNTQ1%2A_ga_C2N57Y7DX5%2AMTczNjExMjMzNy4zLjEuMTczNjExNjM0Ni4wLjAuMA..
+
+https://pyproj4.github.io/pyproj/stable/api/transformer.html
+
+https://epsg.io/
