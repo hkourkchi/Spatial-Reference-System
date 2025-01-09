@@ -27,6 +27,11 @@ The script uses the `pyproj` library to transform coordinates between different 
    ```
 
 5. The script will output the corresponding WGS84 coordinates (longitude, latitude).
-```
 
+
+## to use compiled exe file
+
+1. copy your `input_ad83.csv` file to the folder containing main.exe file (located in dist folder).
+
+2. run the main.exe file to generate output file naming output_wgs84.csv.
 
