@@ -35,3 +35,7 @@ The script uses the `pyproj` library to transform coordinates between different 
 
 2. run the main.exe file to generate output file naming output_wgs84.csv.
 
+## Pylint is added to the repo
+
+
+
