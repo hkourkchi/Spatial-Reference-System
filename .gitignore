@@ -4,3 +4,4 @@
 main.spec
 # Ignore PyInstaller build folder
 build/
+__pycache__/
