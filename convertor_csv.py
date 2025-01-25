@@ -100,11 +100,11 @@ if __name__ == '__main__':
             out_file_name = input('Enter your output csv file name')
             try:
                 convert_csv_nad83_to_wgs84(in_file_name, out_file_name)
-            except Exception as e:
+            except Exception as e: # pylint: disable=broad-except
                 print(f"An error occurred: {e}")
         else:
             try:
                 convert_csv_nad83_to_wgs84()
-            except Exception as e:
+            except Exception as e: # pylint: disable=broad-except
                 print(f"An error occurred: {e}")
         continue_flag = input('Do you want another conversion? (Y/N)')
