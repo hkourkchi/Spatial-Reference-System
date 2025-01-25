@@ -23,7 +23,7 @@ The script uses the `pyproj` library to transform coordinates between different 
    
 4. Run the script:
    ```bash
-   python main.py
+   python convertor_csv.py
    ```
 
 5. The script will output the corresponding WGS84 coordinates (longitude, latitude).
@@ -31,9 +31,13 @@ The script uses the `pyproj` library to transform coordinates between different 
 
 ## to use compiled exe file
 
-1. copy your `input_ad83.csv` file to the folder containing main.exe file (located in dist folder).
+1. Copy your `input_ad83.csv` file to the folder containing main.exe file (located in dist folder).
 
-2. run the main.exe file to generate output file naming output_wgs84.csv.
+2. Run the convertor_csv.exe file to generate output file naming output_wgs84.csv.
+
+3. To generate the exe file type `pyinstaller convertor_csv.py` in terminal. Note that you 
+   should install pyinstaller in advance. If it is not installed type `pip install pyinstaller` 
+   in the terminal to install it.
 
 ## Pylint is added to the repo
 
