@@ -1,7 +1,7 @@
 # Ignore JetBrains IDE settings
 .idea/
 # Ignore PyInstaller spec file
-main.spec
+*.spec
 # Ignore PyInstaller build folder
 build/
 __pycache__/

@@ -4,7 +4,7 @@ This is a unit test for convert_nad83_to_wgs84 function
 
 import unittest
 import pandas as pd
-from main import convert_nad83_to_wgs84
+from convertor_csv import convert_nad83_to_wgs84
 
 
 class ConvertNad83ToWgs84UnitTest(unittest.TestCase):
